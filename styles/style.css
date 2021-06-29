@@ -12,6 +12,10 @@ body {
 }
 
 button {
+  background-color: rgba(204, 98, 28, 0.986);
+  color: white;
+  border: none;
+  border-radius: 3px;
   font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
 }
 
@@ -38,6 +42,10 @@ button {
 /* Buttons */
 
 /* INSERT BUTTON STYLES HERE */
+button:hover {
+background-color: white;
+color: rgba(204, 98, 28, 0.986);
+}
 
 /* Alert */
 
@@ -67,7 +75,7 @@ button {
 /* Jumbotron */
 
 .jumbotron {
-  background-image: url("../images/header.jpg");
+  background-image: url("../images/header-bike.jpg");
   border-radius: 0;
   color: #fff;
 }
@@ -97,13 +105,26 @@ button {
 
 /* Article */
 
+.article_wrapper{
+  display: flex;
+  
+}
+
 .article {
+  margin-left: 15px;
   margin-bottom: 2em;
+  padding: 20px;
+  border:1px solid rgba(204, 98, 28, 0.986);
+  border-radius: 4px;
 }
 
 .article__image {
-  object-fit: contain;
+  float: left;
   width: 5rem;
+  height: 60px;
+  margin-right: 20px ;
+  margin-bottom: 50px;
+
 }
 
 .article__title {
